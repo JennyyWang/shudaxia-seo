@@ -1,0 +1,295 @@
+<div class="n_box">
+    <div class="n_boxs">
+
+        <h1>
+
+            <a href="/en/">
+
+                <img src="/statics/assets/images/logo1.png" />
+
+            </a>
+
+        </h1>
+
+        <nav>
+
+            <a href="/en/" {if $nav_id==1}class="active"{/if}>
+
+                <span>Home</span>
+
+                <div class="line">
+
+                    <div class="s"></div>
+
+                    <i class="i"></i>
+
+                    <i class="i1"></i>
+
+                </div>
+
+            </a>
+
+            <a href="/en/product/"  {if $nav_id==2}class="active"{/if}>
+
+                <span>Products</span>
+
+                <div class="line">
+
+                    <div class="s"></div>
+
+                    <i class="i"></i>
+
+                    <i class="i1"></i>
+
+                </div>
+
+            </a>
+
+            <a href="/en/store/" {if $nav_id==3}class="active"{/if}>
+
+                <span>Stores</span>
+
+                <div class="line">
+
+                    <div class="s"></div>
+
+                    <i class="i"></i>
+
+                    <i class="i1"></i>
+
+                </div>
+
+            </a>
+
+            <a href="/en/news/" {if $nav_id==4}class="active"{/if}>
+
+                <span>Events</span>
+
+                <div class="line">
+
+                    <div class="s"></div>
+
+                    <i class="i"></i>
+
+                    <i class="i1"></i>
+
+                </div>
+
+            </a>
+
+            <a href="/en/team/" {if $nav_id==5}class="active"{/if}>
+
+                <span>Team</span>
+
+                <div class="line">
+
+                    <div class="s"></div>
+
+                    <i class="i"></i>
+
+                    <i class="i1"></i>
+
+                </div>
+
+            </a>
+
+            <a href="/en/join/" {if $nav_id==6}class="active"{/if}>
+
+                <span>Franchise</span>
+
+                <div class="line">
+
+                    <div class="s"></div>
+
+                    <i class="i"></i>
+
+                    <i class="i1"></i>
+
+                </div>
+
+            </a>
+
+            <a href="/en/about/" {if $nav_id==7}class="active"{/if}>
+
+                <span>About Us</span>
+
+                <div class="line">
+
+                    <div class="s"></div>
+
+                    <i class="i"></i>
+
+                    <i class="i1"></i>
+
+                </div>
+
+            </a>
+
+            <a href="###">
+
+                <img src="/statics/assets/images/tel.png" />
+
+            </a>
+
+            <div class="sel">
+
+                <i class="serach">
+
+                    <div class="input-box">
+
+                            <form action="/index.php?m=content&c=index&a=search1" method="post" id="form">
+
+                                <label class="inline-box">
+
+                                    <input type="text" name="keyword">
+
+                                    <input type="submit" class="search" style="width: 80px;" value="">
+
+                                </label>
+
+                            </form>
+
+                    </div>
+
+                </i>
+
+                <i class="dqiu"></i>
+
+                <i class="">EN
+
+                    <ul>
+
+                        <li>
+                            <a href="http://www.sdxhotpot.com" target="_blank" style="padding: 0px;background: none;line-height: 1.4;top: 0px;color: #fff;">EN</a>
+                        </li>
+                        <li>
+                            <a href="http://www.cd-sdx.com/" target="_blank" style="padding: 0px;background: none;line-height: 1.4;top: 0px;color: #fff;">CN</a>
+                        </li>
+
+                    </ul>
+
+                </i>
+
+            </div>
+
+        </nav>
+
+    </div>
+
+</div>
+
+<div class="m-h-d">
+
+        <a href="/" class="m-home">
+
+            <img src="/statics/assets/images/logo1.png" alt="">
+
+        </a>
+
+</div>
+
+<div class="menubtn">
+
+        <span></span>
+
+        <span></span>
+
+        <span></span>
+
+    </div>
+
+<div class="m-header">
+
+
+
+    <div class="m-cover"></div>
+
+    <div class="m-h-cover">
+
+        <ul {if $nav_id==1}class="active"{/if}>
+
+            <li><a href="/">Home</a></li>
+
+        </ul>
+
+        <ul {if $nav_id==2}class="active"{/if}>
+
+            <li class="mi">Products</li>
+
+            <li><a href="/recommend/">一帅九将</a></li>
+
+        </ul>
+
+        <ul {if $nav_id==3}class="active"{/if}>
+
+            <li class="mi">Stores</li>
+
+            <li><a href="/store/#box3">Popular Scene</a></li>
+
+        </ul>
+
+        <ul {if $nav_id==4}class="active"{/if}>
+
+            <li class="mi">Events</li>
+
+            <li><a href="/dynamic/">Signing Contract</a></li>
+
+            <li><a href="/Opening/">Opening Dynamics</a></li>
+
+        </ul>
+
+        <ul {if $nav_id==5}class="active"{/if}>
+
+            <li class="mi">Team</li>
+
+            <li><a href="/team/#box1">团队介绍</a></li>
+
+            <!-- <li><a href="/team/#box2">精英团队</a></li>
+
+            <li><a href="/team/#box3">前厅技能大赛</a></li>
+
+            <li><a href="/team/#box4">厨房技能大赛</a></li> -->
+
+        </ul>
+
+        <ul {if $nav_id==6}class="active"{/if}>
+
+            <li class="mi">Franchise</li>
+
+            <li><a href="/join/#box1">品牌优势</a></li>
+
+            <li><a href="/join/#box2">加盟流程</a></li>
+
+            <li><a href="/join/#box3">总部支持</a></li>
+
+        </ul>
+
+        <ul {if $nav_id==7}class="active"{/if}>
+
+            <li class="mi">About Us</li>
+
+            <li><a href="/about/#box1">公司介绍</a></li>
+
+            <!-- <li><a href="/about/#box2">品牌创始人</a></li> -->
+
+            <li><a href="/about/#box3">品牌荣誉</a></li>
+
+            <!-- <li><a href="/about/#box4">招聘信息</a></li>
+
+            <li><a href="/about/#box5">联系我们</a></li>
+
+            <li><a href="/about/#box7">我要加盟</a></li> -->
+
+        </ul>
+
+        <div class="m-b">
+
+            <a href="tel:4000280677">400-028-0677</a>
+
+            <a href=""><span class="diqiu"></span><a href="http://www.sdxhotpot.com" target="_blank">EN</a></a>
+
+        </div>
+
+    </div>
+
+</div>
