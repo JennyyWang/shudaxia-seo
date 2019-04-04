@@ -1,33 +1,36 @@
 <!DOCTYPE html>
-<!-- 
+<!--
    |   Powered By Shuwon - www.shuwon.com  |
    |   Tel:028-85917677  18628176767       |
    |   E-mail:service@shuwon.com           |
-            __     __       
-           /  \~~~/  \    
-     ,----(     ..    ) 
-    /      \__     __/   
+            __     __
+           /  \~~~/  \
+     ,----(     ..    )
+    /      \__     __/
    /|         (\  |(
-  ^ \   /___\  /\ |   
-     |__|   |__|-" 
+  ^ \   /___\  /\ |
+     |__|   |__|-"
 -->
 
 <head>
     <meta charset="utf-8">
     <meta name="author" content="http://www.shuwon.com" />
-    <meta name="keywords" content="{if $cur_key==''}{$keywords}{else}{$cur_key}{/if}" />
-    <meta name="description" content="{if $cur_catdesc==''}{$description}{else}{$cur_catdesc}{/if}" />
+    <!-- <meta name="keywords" content="{if $cur_key==''}{$keywords}{else}{$cur_key}{/if}" />
+    <meta name="description" content="{if $cur_catdesc==''}{$description}{else}{$cur_catdesc}{/if}" /> -->
+    <title>Team of Shu DaXia | Hot Pot Near Me</title>
+    <meta name="keywords" content="Hot Pot Near Me" />
+    <meta name="description" content="Need to find a hot pot me? Shu DaXia is always there for all the customers. Our team is devoting ourselves to bring better hot pot service and products for you." />
     <meta name="format-detection" content="telephone=no" />
     <meta name="apple-touch-fullscreen" content="yes" />
     <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
     <meta name="renderer" content="webkit">
     <link rel="stylesheet" href="/statics/assets/lib/style/common.css" />
-    
+
     <link rel="stylesheet" href="/statics/assets/lib/style/swiper.css" />
     <link rel="stylesheet" href="/statics/assets/lib/style/animate.min.css" />
     <link rel="stylesheet" href="/statics/assets/style/sdx.shuwon.css" />
-    <title>蜀大侠|团队</title>
+    <!-- <title>蜀大侠|团队</title> -->
     <!--[if IE]>
         <link rel="stylesheet" href="/statics/assets/lib/style/ie.css" />
     <![endif]-->
@@ -37,20 +40,24 @@
 <body>
     <div class="container" id="">
         <header class="animated header">{include file="header.html"}</header>
-        
+
         <div id="main">
             <div class="scroll">
 
                 <article id="team" class="bg RP">
-                    
+
                     <main class="teamtMain widthSome common-main">
                             <div class="LTitle inline-box">
                                     <img alt="{$index_name}" src="/statics/assets/images/teamT.png" >
                                     <ul>
-                                        <li>办公环境</li>
+                                        <!-- <li>办公环境</li>
                                         <li>精英团队</li>
                                         <li>前厅技能大赛</li>
-                                        <li>厨房技能大赛</li>
+                                        <li>厨房技能大赛</li> -->
+                                        <li>Office Environment</li>
+                                        <li>Elite Team</li>
+                                        <li>Front Office Skills Competition</li>
+                                        <li>Kitchen Skills Competition</li>
                                     </ul>
                                 </div>
                         <div class="box box1">
@@ -111,7 +118,7 @@
                                 </div>
                             </div>
                             <div class="common info">
-                                蜀大侠运营部团队
+                                Operation Department in Shu DaXia
                             </div>
                             <div class="box3__">
                                     <div class="c-left control">
@@ -131,7 +138,7 @@
                                     </div>
                                 </div>
                         </div>
-                        
+
                         <div class="box box3 box44">
                             <div class="t-title">
                                 <img alt="{$index_name}" src="/statics/assets/images/fromt.png" >
@@ -141,7 +148,7 @@
                                     <p>front office skills competition</p>
                                 </div>
                             <div class="box-wrapper">
-                                
+
                                 <div class="swiper-container">
                                     <div class="swiper-wrapper">
                                         {foreach from=$qianting_list item=list name=foo}
@@ -155,7 +162,7 @@
                                 </div>
                             </div>
                             <div class="common info">
-                                2018年度蜀大侠前厅技能大赛
+                                2018 Shu DaXia Front Office Competition
                             </div>
                             <div class="swiper-scrollbar"></div>
                         </div>
@@ -181,13 +188,13 @@
                                 </div>
                             </div>
                             <div class="common info">
-                                2018年度蜀大侠厨房技能大赛
+                                2018 Shu DaXia Kitchen Skills Competition
                             </div>
                             <div class="swiper-scrollbar"></div>
                         </div>
-                        
-                        
-                        
+
+
+
                     </main>
                 </article>
                 <footer class="footer">
@@ -225,7 +232,7 @@
 </html>
 <script>
     window.onload = function () {
-       
+
         var swiper = new Swiper('.box3__ .swiper-container', {
         resistanceRatio: 0,
         slidesPerView: 3,
@@ -303,5 +310,5 @@
     shuwon.commonScroll()
     shuwon.loaded();
     }
-    
+
 </script>
